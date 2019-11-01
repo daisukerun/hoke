@@ -1,0 +1,151 @@
+@media only screen and (max-width:1920px){
+body{
+  background: orange;
+}
+.title{
+  font-size: 32px;
+  width: 900px;
+  padding-left: 10px;
+  display: inline-block;
+}
+.title>h1{
+  background:white; 
+  color:black;
+  border-radius:50px;
+  margin: 0px;
+  position: relative;
+  left:29%;
+  padding-left: 30px;
+
+}
+
+
+.navi>ul{
+  background: white;
+  list-style: none;
+  padding:0px;
+  width: 800px;
+  display: flex;
+  position: relative;
+  left:22%;
+  border-radius:50px;
+}
+.navi>ul>li{
+  padding-right:10px;
+  padding-left:10px;
+  margin-left:10px; 
+  border-right: 1px solid black;
+}
+
+.title2{
+  text-align: center;
+}
+
+.setu{
+  position: relative;
+  left: 20%;
+  border: 1px solid black;
+  background: white;
+  border-radius:50px; 
+  width: 360px;
+  height: 320px;
+  margin-top:30px; 
+}
+
+.setu dl{
+  padding-left: 20px;
+  font-weight:bold; 
+}
+
+.chizu p{
+  padding-left:20px;
+  font-weight:bold;  
+  color:blue;
+}
+
+.hako{
+  display: flex;
+}
+
+.chizu2{
+position: relative;
+left: 25%;
+}
+
+.rogo>img{
+  position: relative;
+  left:40%; 
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.name>p{
+  text-align: center;
+  font-size: 14px;
+  color:gray;
+  position: relative;
+  bottom: 20%;
+}
+}
+@media only screen and (max-width:600px){
+  body{
+    background:orange;
+  }
+  .title{
+    font-size: 16px;
+    display: inline-block;
+    position:static;
+    position: relative;
+    right: 20%;
+    width: 450px;
+  }
+  .title>h1{
+    text-align: center;
+    padding: 0;
+  }
+  .navi>ul{
+    background: white;
+    list-style: none;
+    padding:0px;
+    width: 420px;
+    display: flex;
+    position: relative;
+    left:10%;
+    border-radius:50px;
+    }
+    .navi>ul>li{
+      padding-right:0px;
+      padding-left:0px;
+     margin-left:10px; 
+     border-right: 1px solid black;
+    font-size: 10px;
+    }
+    
+    .hako{
+      display: block;
+    }
+    .setu{
+      margin-bottom: 50px;
+    }
+    .chizu2{
+      position: static;
+    }
+    .chizu2>iframe{
+      width: 500px; 
+    }
+
+    .rogo>img{
+      position: relative;
+      left:22%; 
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    
+    .name>p{
+      text-align: center;
+      font-size: 14px;
+      color:gray;
+      position: relative;
+      bottom: 20%;
+    }
+}

@@ -1,0 +1,233 @@
+@media only screen and (max-width:1920px){
+body{
+  background: orange;
+}
+.title{
+  font-size: 32px;
+  display: inline-block;
+}
+.title>h1{
+  background:white; 
+  color:black;
+  border-radius:50px;
+  margin: 0px;
+  position: relative;
+  left:29%;
+  padding-left: 30px;
+}
+
+.navi>ul{
+background: white;
+list-style: none;
+padding:0px;
+width: 800px;
+display: flex;
+position: relative;
+left:22%;
+border-radius:50px;
+}
+.navi>ul>li{
+  padding-right:10px;
+  padding-left:10px;
+ margin-left:10px; 
+ border-right: 1px solid black;
+}
+
+.title1{
+  position: relative;
+  left: 40%;
+  font-size:24px; 
+}
+
+.hako{
+  display: flex;
+  position: relative;
+  left: 20%;
+}
+
+.setu{
+  border: 1px solid white;
+  height: 200px;
+  width: 600px;
+  border-radius:50px;
+  padding-left: 30px; 
+}
+
+.setu p{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.photo{
+  padding-left:30px;
+}
+
+.hako2{
+  display: flex;
+  margin-top:30px; 
+}
+
+.title2{
+  font-size: 16px;
+  position: relative;
+  left: 25%;
+}
+.title3{
+  font-size: 16px;
+  position: relative;
+  left: 50%;
+}
+
+.hako3{
+  display: flex;
+}
+
+.setu2{
+  position: relative;
+  left: 24%;
+  border: 1px solid white;
+  width: 300px;
+  border-radius: 50px;
+}
+.setu2 p{
+  font-weight:bold;
+  padding: 20px;
+}
+.setu3{
+  position: relative;
+  left: 39%;
+  border: 1px solid white;
+  width: 350px;
+  border-radius: 50px;
+}
+.setu3 p{
+  font-weight:bold;
+  padding: 20px;
+}
+
+.form{
+position: relative;
+left: 30%;
+margin-top: 60px;
+}
+
+.rogo>img{
+  position: relative;
+  left:40%; 
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.name>p{
+  text-align: center;
+  font-size: 14px;
+  color:gray;
+  position: relative;
+  bottom: 20%;
+}
+}
+@media only screen and (max-width:600px){
+  body{
+    background:orange;
+  }
+  .title{
+    font-size: 16px;
+    display: inline-block;
+    position:static;
+    position: relative;
+    right: 20%;
+    width: 450px;
+  }
+  .title>h1{
+    text-align: center;
+    padding: 0;
+  }
+  .navi>ul{
+    background: white;
+    list-style: none;
+    padding:0px;
+    width: 420px;
+    display: flex;
+    position: relative;
+    left:10%;
+    border-radius:50px;
+    }
+    .navi>ul>li{
+      padding-right:0px;
+      padding-left:0px;
+     margin-left:10px; 
+     border-right: 1px solid black;
+    font-size: 10px;
+    }
+    .title1{
+      position: relative;
+      left: 20%;
+      font-size:24px; 
+    }
+    .title1 h3{
+      margin:0;
+      padding-bottom:10px; 
+     
+    }
+    .hako{
+      display: block;
+      position: relative;
+      left: 0%;
+    }
+    .setu{
+      width: 425px;
+      height: 250px;
+     position: relative;
+     left: 20px;
+    }
+   .photo{
+     display: none;
+   }    
+  .hako2{
+    display: block;
+  }
+  .title2{
+    position: static;
+    position: relative;
+    left: 35%;
+  }
+  .setu2{
+    position: static;
+    position: relative;
+    left: 25%;
+  }
+  .hako3{
+    display: block;
+  }
+.title3{
+position: static;
+position: absolute;
+left: 40%;
+top:680px;
+}
+.setu3{
+  margin-top:50px; 
+  position: static;
+  position: relative;
+  left: 20%;
+}
+.form{
+  margin-top:30px;
+position:relative;
+  left: -10%;
+}
+.rogo>img{
+  position: relative;
+  left:22%; 
+  margin-top: -100px;
+  margin-bottom: 0px;
+}
+
+.name>p{
+  text-align: center;
+  font-size: 14px;
+  color:gray;
+  position: relative;
+  bottom: 20%;
+}
+}

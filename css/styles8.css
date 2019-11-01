@@ -1,0 +1,231 @@
+@media only screen and (max-width:1920px){
+body{
+  background: orange;
+}
+.title{
+  font-size: 32px;
+  width: 900px;
+  padding-left: 10px;
+  display: inline-block;
+}
+.title>h1{
+  background:white; 
+  color:black;
+  border-radius:50px;
+  margin: 0px;
+  position: relative;
+  left:29%;
+  padding-left: 30px;
+
+}
+
+
+.navi>ul{
+  background: white;
+  list-style: none;
+  padding:0px;
+  width: 800px;
+  display: flex;
+  position: relative;
+  left:22%;
+  border-radius:50px;
+}
+.navi>ul>li{
+  padding-right:10px;
+  padding-left:10px;
+  margin-left:10px; 
+  border-right: 1px solid black;
+}
+
+.setu{
+  text-align: center;
+}
+
+.how1{
+  position: relative;
+  left: 30%;
+}
+
+.mail{
+  font-weight: bold;
+  position: relative;
+  left: 30%;
+  border: 1px solid  white;
+  width: 500px;
+  border-radius:50px;
+}
+
+.mail dl{
+padding-left:30px;
+}
+
+.setu2{
+position: relative;
+left: 30%;
+font-weight: bold;
+margin-top: 30px;
+}
+
+.form{
+  position: relative;
+  left: 30%;
+  border: 1px solid  white;
+  width: 500px;
+  border-radius:50px;
+}
+
+.forhone{
+text-align: center;
+font-weight: bold;
+}
+
+.forhone2{
+  text-align: center;
+  font-weight: bold;
+  }
+
+  .forhone3{
+    text-align: center;
+    font-weight: bold;
+    }
+
+    .button{
+      text-align: center;
+      font-weight: bold;
+    }
+textarea{
+  resize: both;
+  font-weight: bold;
+}
+
+.how2{
+  position: relative;
+  left: 30%;
+  margin-top: 30px;
+}
+
+.setu3{
+  display: flex;
+  position: relative;
+  left: 27%;
+  border: 1px solid white;
+  width: 600px;
+  border-radius:50px; 
+}
+
+.rogo>img{
+  position: relative;
+  left:40%; 
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.name>p{
+  text-align: center;
+  font-size: 14px;
+  color:gray;
+  position: relative;
+  bottom: 20%;
+}
+}
+@media only screen and (max-width:600px){
+  body{
+    background:orange;
+  }
+  .title{
+    font-size: 16px;
+    display: inline-block;
+    position:static;
+    position: relative;
+    right: 20%;
+    width: 450px;
+  }
+  .title>h1{
+    text-align: center;
+    padding: 0;
+  }
+  .navi>ul{
+    background: white;
+    list-style: none;
+    padding:0px;
+    width: 420px;
+    display: flex;
+    position: relative;
+    left:10%;
+    border-radius:50px;
+    }
+    .navi>ul>li{
+      padding-right:0px;
+      padding-left:0px;
+     margin-left:10px; 
+     border-right: 1px solid black;
+    font-size: 10px;
+    }
+    
+    .how1{
+      position: static;
+      position:relative;
+      left: 25%; 
+    }
+    
+    .mail{
+      font-weight: bold;
+      position: static;
+      border: 1px solid  white;
+      width: 490px;
+      border-radius:50px;
+    }
+    .setu2{
+      position: relative;
+      left: 40%;
+      font-weight: bold;
+      margin-top: 30px;
+      }
+      
+      .form{
+        position: relative;
+        left: 25%;
+        border: 1px solid  white;
+        width: 300px;
+        border-radius:50px;
+      }
+      .how2{
+        position: relative;
+        left: 40%;
+        margin-top: 30px;
+      }
+      
+      .setu3{
+        display: flex;
+        position: relative;
+        left: 15%;
+        border: 1px solid white;
+        width: 400px;
+        border-radius:50px; 
+      } 
+      .face>figure>img{
+        width: 100px;
+        height: 100px; 
+      }
+      .line>figure>img{
+        width: 100px;
+        height: 100px;
+      }
+    
+
+    .rogo>img{
+      position: relative;
+      left:22%; 
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    
+    .name>p{
+      text-align: center;
+      font-size: 14px;
+      color:gray;
+      position: relative;
+      bottom: 20%;
+    }
+        
+}
