@@ -21,7 +21,7 @@
   background: white;
   list-style: none;
   padding:0px;
-  width: 800px;
+  width: 850px;
   display: flex;
   position: relative;
   left:22%;
@@ -44,7 +44,7 @@
     height: 300px;
     position: relative;
     left: 27%;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     overflow: hidden;
   }
    

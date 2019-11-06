@@ -24,7 +24,7 @@ body{
   background: white;
   list-style: none;
   padding:0px;
-  width: 800px;
+  width: 850px;
   display: flex;
   position: relative;
   left:22%;
@@ -58,6 +58,7 @@ body{
 .mail dl{
 padding-left:30px;
 }
+
 
 .setu2{
 position: relative;
