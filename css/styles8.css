@@ -27,7 +27,7 @@ body{
   width: 850px;
   display: flex;
   position: relative;
-  left:22%;
+  left:21%;
   border-radius:50px;
 }
 .navi>ul>li{
@@ -114,20 +114,15 @@ textarea{
   border-radius:50px; 
 }
 
-.rogo>img{
-  position: relative;
-  left:40%; 
-  margin-top: 100px;
-  margin-bottom: 60px;
-}
-
-.name>p{
+.rogo{
+  width: 250px;
   text-align: center;
+  position: relative;
+  left:42%; 
   font-size: 14px;
   color:gray;
-  position: relative;
-  bottom: 20%;
 }
+
 }
 @media only screen and (max-width:600px){
   body{
@@ -214,19 +209,14 @@ textarea{
       }
     
 
-    .rogo>img{
-      position: relative;
-      left:22%; 
-      margin-top: 50px;
-      margin-bottom: 50px;
-    }
-    
-    .name>p{
-      text-align: center;
-      font-size: 14px;
-      color:gray;
-      position: relative;
-      bottom: 20%;
-    }
+      .rogo{
+        width: 250px;
+        text-align: center;
+        position: relative;
+        left:42%; 
+        font-size: 14px;
+        color:gray;
+      }
+  
         
 }

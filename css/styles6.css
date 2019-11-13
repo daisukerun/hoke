@@ -1,152 +1,175 @@
-@media only screen and (max-width:1920px){
-body{
-  background: orange;
-}
-.title{
-  font-size: 32px;
-  width: 900px;
-  padding-left: 10px;
-  display: inline-block;
-}
-.title>h1{
-  background:white; 
-  color:black;
-  border-radius:50px;
-  margin: 0px;
-  position: relative;
-  left:29%;
-  padding-left: 30px;
+  @media only screen and (max-width:1920px){
+    body{
+      background: orange;
+    }
+    .title{
+      font-size: 32px;
+      width: 900px;
+      padding-left: 10px;
+      display: inline-block;
+    }
+    .title>h1{
+      background:white; 
+      color:black;
+      border-radius:50px;
+      margin: 0px;
+      position: relative;
+      left:29%;
+      padding-left: 30px;
+    
+    }
+    .navi>ul{
+      background: white;
+      list-style: none;
+      padding:0px;
+      width: 850px;
+      display: flex;
+      position: relative;
+      left:21%;
+      border-radius:50px;
+    }
+    .navi>ul>li{
+      padding-right:10px;
+      padding-left:10px;
+      margin-left:10px; 
+      border-right: 1px solid black;
+    }
+    #css-slider{
+      width: 600px;
+      height: 300px;
+      position: relative;
+      left: 30%;
+      margin-bottom: 0px;
+      overflow: hidden;
+    }
+     
+     .slider-wrapper {
+     display: flex;
+      width: 300%;
+      position: relative;
+      left:0%;
+      will-change: transform;
+      animation: slider 30s infinite;
+    }
+     
+    @keyframes slider {
+      0% { transform: translateX(0); }
+      20% { transform: translateX(-600px); }
+      40% { transform: translateX(-1200px); }
+      60%{transform:translateX(-1800px)}
+      90%{transform: translateX(-2400px)}
+      100% { transform: translateX(0); }
+    }
+    .title2>h3{
+      margin-top: 50px;
+      margin-bottom:0; 
+      padding-bottom: 10px;
+      position: relative;
+      left:23%;
+    }
+    .saitosetu{
+      font-weight: bold;
+      color: black;
+      border:solid 3px white;
+      border-radius:10px;
+      width: 400px;
+      height:300px ;
+      position: relative;
+      left:22%; 
+    }
 
-}
-.navi>ul{
-  background: white;
-  list-style: none;
-  padding:0px;
-  width: 850px;
-  display: flex;
-  position: relative;
-  left:22%;
-  border-radius:50px;
-}
-.navi>ul>li{
-  padding-right:10px;
-  padding-left:10px;
-  margin-left:10px; 
-  border-right: 1px solid black;
-}
-#css-slider{
-  width: 600px;
-  height: 300px;
-  position: relative;
-  left: 30%;
-  margin-bottom: 0px;
-  overflow: hidden;
-}
+    .saitosetu p{
+      margin: 0;
+      font-size:20px ;
+      padding:10px ;
+      padding-top:50px ;
+    }
+    .hako{
+     display: flex;
+    }
+    .photo1{
+      position:relative;
+      left: 25%;
+    }
+    .photo1>figure{
+      text-align: center;
+      position: relative;
+      top:-10px;
+    }
+    .title3>h3{
+      margin-top: 50px;
+      margin-bottom:0;
+      padding-bottom: 10px;
+      position: relative;
+      left:23%;
+    }
+    .saitosetu2{
+      font-weight: bold;
+      color: black;
+      border:solid 3px white;
+      border-radius:10px;
+      width: 400px;
+      height:300px ;
+      position: relative;
+      left:22%; 
+    }
+    .saitosetu2 p{
+      margin: 0;
+      font-size:20px ;
+      padding:10px ;
+      padding-top:50px ;
+    }
+    .hako2{
+       display: flex; 
  
- .slider-wrapper {
- display: flex;
-  width: 300%;
-  position: relative;
-  left:0%;
-  will-change: transform;
-  animation: slider 30s infinite;
-}
- 
-@keyframes slider {
-  0% { transform: translateX(0); }
-  20% { transform: translateX(-600px); }
-  40% { transform: translateX(-1200px); }
-  60%{transform:translateX(-1800px)}
-  90%{transform: translateX(-2400px)}
-  100% { transform: translateX(0); }
-}
-.title2>h3{
-  margin-top: 50px;
-  margin-bottom:0; 
-  padding-bottom: 10px;
-  position: relative;
-  left:23%;
-}
-.saitosetu{
-  font-weight: bold;
-  color: black;
-  border:solid 3px white;
-  border-radius:10px;
-  width: 400px;
-  height:400px ;
-  position: relative;
-  left:22%; 
-}
-
-.saitosetu p{
-  margin: 0;
-  font-size:20px ;
-  padding:10px ;
-  padding-top:100px ;
-}
-.hako{
-  display: flex;
-}
-.photo1{
-  position:relative;
-  left: 25%;
-}
-.photo1>figure{
-  text-align: center;
-  position: relative;
-  top:-10px;
-}
-.title3>h3{
-  margin-top: 50px;
-  margin-bottom:0; 
-  padding-bottom: 10px;
-  position: relative;
-  left:23%;
-}
-.saitosetu2{
-  font-weight: bold;
-  color: black;
-  border:solid 3px white;
-  border-radius:10px;
-  width: 400px;
-  height:400px ;
-  position: relative;
-  left:22%; 
+    }
+    .photo{
+      position:relative;
+      left: 35%;
+      width: 100%;
+      overflow: hidden;
+    }
+    .po{
+      position: absolute;
+      height: auto;
+      opacity: 0;
+      animation: anime 24s 0s infinite; 
+    }
+    
+    .po:nth-of-type(2){
+      animation-delay: 8s;
+    }
+    .po:nth-of-type(3){
+      animation-delay: 16s;
+    }
+    @keyframes anime{
+      0%{
+        opacity: 0;
+      }
+      10%{
+        opacity: 1;
+      }
+      28%{
+        opacity: 1;
+      }
+      38%{
+        opacity: 0;
+      }
+      100%{opacity: 0;}
+    }
+    
+    
+    .rogo{
+      width: 250px;
+      text-align: center;
+      position: relative;
+      left:42%; 
+      font-size: 14px;
+      color:gray;
+    }
+    
 }
 
-.saitosetu2 p{
-  margin: 0;
-  font-size:20px ;
-  padding:10px ;
-  padding-top:100px ;
-}
-.hako2{
-  display: flex;
-}
-.photo2{
-  position:relative;
-  left: 25%;
-}
-.photo2>figure{
-  text-align: center;
-  position: relative;
-  top:-10px;
-}
-.rogo>img{
-  position: relative;
-  left:40%; 
-  margin-top: 100px;
-  margin-bottom: 60px;
-}
-
-.name>p{
-  text-align: center;
-  font-size: 14px;
-  color:gray;
-  position: relative;
-  bottom: 20%;
-}
-}
 @media only screen and (max-width:600px){
   body{
     background:orange;
@@ -180,20 +203,138 @@ body{
      border-right: 1px solid black;
     font-size: 10px;
     }
-    
-    
-    .rogo>img{
+    #css-slider{
+      width: 600px;
+      height: 300px;
+      position: relative;
+      left: 30%;
+      margin-bottom: 0px;
+      overflow: hidden;
+    }
+     
+     .slider-wrapper {
+     display: flex;
+      width: 300%;
+      position: relative;
+      left:0%;
+      will-change: transform;
+      animation: slider 30s infinite;
+    }
+     
+    @keyframes slider {
+      0% { transform: translateX(0); }
+      20% { transform: translateX(-600px); }
+      40% { transform: translateX(-1200px); }
+      60%{transform:translateX(-1800px)}
+      90%{transform: translateX(-2400px)}
+      100% { transform: translateX(0); }
+    }
+    .title2>h3{
+      margin-top: 50px;
+      margin-bottom:0; 
+      padding-bottom: 10px;
+      position: relative;
+      left:23%;
+    }
+    .saitosetu{
+      font-weight: bold;
+      color: black;
+      border:solid 3px white;
+      border-radius:10px;
+      width: 400px;
+      height:300px ;
       position: relative;
       left:22%; 
+    }
+
+    .saitosetu p{
+      margin: 0;
+      font-size:20px ;
+      padding:10px ;
+      padding-top:50px ;
+    }
+    .hako{
+     display: flex;
+    }
+    .photo1{
+      position:relative;
+      left: 25%;
+    }
+    .photo1>figure{
+      text-align: center;
+      position: relative;
+      top:-10px;
+    }
+    .title3>h3{
       margin-top: 50px;
-      margin-bottom: 50px;
+      margin-bottom:0;  
+      padding-bottom: 10px;
+      position: relative;
+      left:23%;
+    }
+    .saitosetu2{
+      font-weight: bold;
+      color: black;
+      border:solid 3px white;
+      border-radius:10px;
+      width: 400px;
+      height:300px ;
+      position: relative;
+      left:22%; 
+    }
+    .saitosetu2 p{
+      margin: 0;
+      font-size:20px ;
+      padding:10px ;
+      padding-top:50px ;
+    }
+    .hako2{
+       display: flex; 
+    
+    }
+    .photo{
+      position:relative;
+      left: 35%;
+      width: 100%;
+      overflow: hidden;
+    }
+    .po{
+      position: absolute;
+      height: auto;
+      opacity: 0;
+      animation: anime 24s 0s infinite; 
     }
     
-    .name>p{
+    .po:nth-of-type(2){
+      animation-delay: 8s;
+    }
+    .po:nth-of-type(3){
+      animation-delay: 16s;
+    }
+    @keyframes anime{
+      0%{
+        opacity: 0;
+      }
+      10%{
+        opacity: 1;
+      }
+      28%{
+        opacity: 1;
+      }
+      38%{
+        opacity: 0;
+      }
+      100%{opacity: 0;}
+    }
+    
+    
+    .rogo{
+      width: 250px;
       text-align: center;
+      position: relative;
+      left:42%; 
       font-size: 14px;
       color:gray;
-      position: relative;
-      bottom: 20%;
     }
-}
+
+  }

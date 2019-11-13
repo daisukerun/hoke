@@ -1,31 +1,34 @@
 @media only screen and (max-width:1920px){
-body{
-  background: orange;
-}
-.title{
-  font-size: 32px;
-  display: inline-block;
-}
-.title>h1{
-  background:white; 
-  color:black;
-  border-radius:50px;
-  margin: 0px;
-  position: relative;
-  left:29%;
-  padding-left: 30px;
-}
+  body{
+    background: orange;
+  }
+  .title{
+    font-size: 32px;
+    width: 900px;
+    padding-left: 10px;
+    display: inline-block;
+  }
+  .title>h1{
+    background:white; 
+    color:black;
+    border-radius:50px;
+    margin: 0px;
+    position: relative;
+    left:29%;
+    padding-left: 30px;
+  
+  }
+  .navi>ul{
+    background: white;
+    list-style: none;
+    padding:0px;
+    width: 850px;
+    display: flex;
+    position: relative;
+    left:21%;
+    border-radius:50px;
+  }
 
-.navi>ul{
-background: white;
-list-style: none;
-padding:0px;
-width: 850px;
-display: flex;
-position: relative;
-left:22%;
-border-radius:50px;
-}
 .navi>ul>li{
   padding-right:10px;
   padding-left:10px;
@@ -111,20 +114,15 @@ left: 30%;
 margin-top: 60px;
 }
 
-.rogo>img{
-  position: relative;
-  left:40%; 
-  margin-top: 100px;
-  margin-bottom: 60px;
-}
-
-.name>p{
+.rogo{
+  width: 250px;
   text-align: center;
+  position: relative;
+  left:42%; 
   font-size: 14px;
   color:gray;
-  position: relative;
-  bottom: 20%;
 }
+
 }
 @media only screen and (max-width:600px){
   body{
@@ -216,18 +214,13 @@ top:680px;
 position:relative;
   left: -10%;
 }
-.rogo>img{
-  position: relative;
-  left:22%; 
-  margin-top: -100px;
-  margin-bottom: 0px;
-}
-
-.name>p{
+.rogo{
+  width: 250px;
   text-align: center;
+  position: relative;
+  left:42%; 
   font-size: 14px;
   color:gray;
-  position: relative;
-  bottom: 20%;
 }
+
 }

@@ -1,33 +1,33 @@
 @media only screen and (max-width:1920px){
-body{
-  background: orange;
-}
-.title{
-  font-size: 32px;
-  width: 900px;
-  padding-left: 10px;
-  display: inline-block;
-}
-.title>h1{
-  background:white; 
-  color:black;
-  border-radius:50px;
-  margin: 0px;
-  position: relative;
-  left:29%;
-  padding-left: 30px;
-}
-
-.navi>ul{
-  background: white;
-  list-style: none;
-  padding:0px;
-  width: 850px;
-  display: flex;
-  position: relative;
-  left:22%;
-  border-radius:50px;
-}
+  body{
+    background: orange;
+  }
+  .title{
+    font-size: 32px;
+    width: 900px;
+    padding-left: 10px;
+    display: inline-block;
+  }
+  .title>h1{
+    background:white; 
+    color:black;
+    border-radius:50px;
+    margin: 0px;
+    position: relative;
+    left:29%;
+    padding-left: 30px;
+  
+  }
+  .navi>ul{
+    background: white;
+    list-style: none;
+    padding:0px;
+    width: 850px;
+    display: flex;
+    position: relative;
+    left:21%;
+    border-radius:50px;
+  }
 
 .navi>ul>li{
   padding-right:10px;
@@ -40,17 +40,9 @@ body{
   text-align: center;
 }
 
-.hako{
-  display: flex;
-  margin-top:50px;
-  margin-bottom: 50px;
-  position: relative;
-  left:30%; 
-}
 
 .photo1{
-  margin-right:10px;
-  margin-left: 10px; 
+  margin: 50px; 
 }
 
 .photo1>figure{
@@ -58,8 +50,7 @@ body{
 }
 
 .photo2{
-  margin-right:10px;
-  margin-left: 10px; 
+  margin: 50px;
 }
 .photo2>figure{
   text-align: center;
@@ -72,36 +63,20 @@ body{
   text-align: center;
 }
 
-.hako2{
-  display: flex;
-  margin-top:50px;
-  margin-bottom: 50px;
-  position: relative;
-  left:30%; 
-}
-
 .photo4{
-  margin-right:10px;
-  margin-left: 10px; 
+  margin: 50px;
 }
 .photo4>figure{
   text-align: center;
 }
 
 .photo5{
-  margin-right:10px;
-  margin-left: 10px; 
+  margin: 50px;
 }
 .photo5>figure{
   text-align: center;
 }
-.photo6{
-  margin-right:10px;
-  margin-left: 10px; 
-}
-.photo6>figure{
-  text-align: center;
-}
+
 
 .orei{
   text-align: center;
@@ -169,18 +144,49 @@ body{
       display: block;
       position: static;
     }
-    .rogo>img{
-      position: relative;
-      left:22%; 
-      margin-top: 50px;
-      margin-bottom: 50px;
-    }
-    
-    .name>p{
+    .rogo{
+      width: 250px;
       text-align: center;
+      position: relative;
+      left:42%; 
       font-size: 14px;
       color:gray;
-      position: relative;
-      bottom: 20%;
     }
+
+    photo1{
+      margin: 50px; 
+    }
+    
+    .photo1>figure{
+      text-align: center;
+    }
+    
+    .photo2{
+      margin: 50px;
+    }
+    .photo2>figure{
+      text-align: center;
+    }
+    .photo3{
+      margin-right:10px;
+      margin-left: 10px; 
+    }
+    .photo3>figure{
+      text-align: center;
+    }
+    
+    .photo4{
+      margin: 50px;
+    }
+    .photo4>figure{
+      text-align: center;
+    }
+    
+    .photo5{
+      margin: 50px;
+    }
+    .photo5>figure{
+      text-align: center;
+    }
+
 }
