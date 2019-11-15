@@ -22,16 +22,23 @@
   input[type=checkbox]{
     display: none;
   }
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    color: black;
+  }
+
 
   .navi>ul{
-     background: white; 
+    background: white; 
     list-style: none;
     padding:0px;
     width: 850px;  
     display: flex;
     position: relative;
     left:21%;
-      border-radius:50px; 
+    border-radius:50px; 
   } 
 
   .navi>ul>li{
@@ -188,6 +195,7 @@
     a:active {
     text-decoration: none;
     /* color: inherit; */
+    color: black;
     }
     .cp_fullscreenmenu {
      position: fixed;   

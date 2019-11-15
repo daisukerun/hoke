@@ -22,6 +22,14 @@
   input[type=checkbox]{
     display: none;
   }
+  
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    color: black;
+  }
+
 
   .navi>ul{
     background: white;
@@ -74,7 +82,7 @@
   }  
   
   .title2>h3{
-    margin-top: 0;
+    margin-top: 10;
     margin-bottom:0; 
     padding-bottom: 0px;
     position: relative;
@@ -132,6 +140,7 @@
     a:active {
     text-decoration: none;
     /* color: inherit; */
+    color: black;
     }
     .cp_fullscreenmenu {
      position: fixed;   
@@ -336,5 +345,10 @@
     .title2{
       position: relative;
       left: 0%;
+    }
+    .syahinname{
+      width: 250px;
+      position: relative;
+      left: 35%;
     }
 }
