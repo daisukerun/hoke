@@ -246,6 +246,7 @@
     display: block;
     margin: 1em;
     padding: 0;
+    border-right: none;
     }
     .cp_fullscreenmenu .menu > div > ul > li > a {
     position: relative;
